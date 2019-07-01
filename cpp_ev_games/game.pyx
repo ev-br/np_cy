@@ -1,6 +1,5 @@
 # distutils: language=c++
 import numpy as np
-import matplotlib.pyplot as plt
 
 from libcpp.vector cimport vector
 from numpy cimport import_array, PyArray_SimpleNewFromData, NPY_INT, npy_intp
