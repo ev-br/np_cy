@@ -14,6 +14,7 @@ cdef class GameField:
     cdef double _b
 
     def __init__(self, L, b):
+        """Python-level ctor."""
         pass
 
     def __cinit__(self, int L, double b, *arg, **kw):
